@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>компьютер mr.robot</title>
+	<link rel="icon" href="favicon.png" type="image/x-png">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        .header {
+            background-image: url('robot.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+			padding-top: 20px;
+            align-items: flex-start;
+            justify-content: center;
+            position: relative;
+            color: white;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        .columns {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 50px 20px;
+			background-color:rgba(255, 0, 0, 0.8);
+			
+        }
+
+        .column {
+            flex: 1;
+            max-width: 30%;
+            box-sizing: border-box;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px; 
+			text-align: center;
+            background-color: #f0f0f0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 20px;
+			
+        }
+
+        .contact img {
+            max-width: 50px;
+            margin-right: 20px;
+        }
+
+        .contact-info {
+            font-size: 1.2em;
+        }
+		
+		.mail {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 20px;
+			background-color: #f0f0f0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			
+        }
+
+        @media (max-width: 768px) {
+            .columns {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .column {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Купить компьютер в Смоленске</h1>
+    </div>
+
+    <div class="columns">
+        <div class="column">
+            <h2>Процессор</h2>
+            <p>Phenom II X 4 Black Edition 3.2 GHz.</p>
+        </div>
+        <div class="column">
+            <h2>Оперативная память</h2>
+            <p>8 Гб DDR3 Samsung</p>
+        </div>
+        <div class="column">
+            <h2>Видеокарта</h2>
+            <p>Sapphire Radeon HD 5770.</p>
+        </div>
+    </div>
+
+    <div class="contact">
+        <img src="tele.png" alt="Телефон">
+        <div class="contact-info">
+            <p> +7 (908) 288-23-95 </p>
+        </div>
+    </div>
+	
+	<div class="mail">
+		<p> andegrinder@yandex.ru </p>
+	</div>
+
+</body>
+</html>
